@@ -37,7 +37,7 @@ jobs:
         with:
           # Build directory to deploy
           build_dir: dist
-          absolute_build_dir: true
+          # absolute_build_dir: true
           verbose: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
